@@ -20,8 +20,14 @@ This uses several Firebase Services,
 
 Steps to Run the Project:
 
+First you have to go to FirebaseConsole . 
+create a new project.
+add and ios app to the project. 
+download "Google-ServiceInfo.plist" file
+
 1. Clone this repository in empty directory (say "MyApp"
 2. Go to the directory (cd "MyApp")
 3. install Pods (pod install)
 4. Open File in directory with ".xcworkspace" extension 
-5. run using xcode
+5. copy the "Google-ServiceInfo.plist" in the project directory (same directory as AppDelegate.swift File)
+6. Run using xcode
